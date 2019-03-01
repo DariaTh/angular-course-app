@@ -1,0 +1,25 @@
+:host{
+    display: block;
+    margin-top: 1rem;
+}
+mat-spinner{
+    margin: auto;
+    
+}
+.delete-link{
+    color: #ff5722 !important;
+    cursor: pointer;
+}
+.edit-link{
+    color: #4caf50 !important;
+    cursor: pointer;
+}
+/*.blue-grey.darken-1 {
+    background-color: #ffe9f0 !important;
+}
+.white-text {
+    color: #333 !important;
+}*/
+mat-paginator{
+    margin-top: 1rem;
+}
