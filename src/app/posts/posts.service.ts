@@ -70,6 +70,19 @@ export class PostsService {
         this.router.navigate(["/"]);
       });
   }
+  //   addPost(title: string, content: string) {
+  //   const postData = new FormData();
+  //   postData.append("title", title);
+  //   postData.append("content", content);
+  //   this.http
+  //     .post<{ message: string; post: Post }>(
+  //       "http://localhost:3100/api/posts",
+  //       postData
+  //     )
+  //     .subscribe(responseData => {
+  //       this.router.navigate(["/"]);
+  //     });
+  // }
 
   updatePost(id: string, title: string, content: string) {
     let postData: Post | FormData;
