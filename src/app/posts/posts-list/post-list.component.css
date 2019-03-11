@@ -23,3 +23,9 @@ mat-spinner{
 mat-paginator{
     margin-top: 1rem;
 }
+.post-image{
+    width: 100%;
+}
+.post-image img{
+    width: 100%;
+}
